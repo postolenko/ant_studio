@@ -2007,7 +2007,7 @@ textarea:focus {
 }
 
 .textarea_wrapp span:last-child {
-    width: 67%;
+    width: 75%;
     bottom: 0;
 }
 
