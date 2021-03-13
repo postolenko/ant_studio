@@ -2082,7 +2082,7 @@ textarea:focus {
 /*-- Section 3 - Project Page --*/
 
 .sect_3_pr_single {
-    padding: 14px 0 20px 0;
+    padding: 14px 0 0px 0;
 }
 
 .white_bg {
@@ -2168,12 +2168,9 @@ textarea:focus {
 
 /*-- Section 4 - Project Page --*/
 
-/*.colors_cheme_wrapp {
-
-}*/
-
 .colors_cheme {
     height: 1080px;
+    margin-top: 25px;
     position: relative;
 }
 
