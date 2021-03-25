@@ -16,6 +16,26 @@ function getImgBoxWrappParams() {
   }); 
 }
 
+function getCountNums() {
+  $('.count').each(function () {
+    if( $(this).offset().top < $(document).scrollTop() + $(window).height() ) {
+      durationVal = parseInt($(this).attr("data-duration"));
+      dataVal = parseInt($(this).attr("data-val"));
+      if( parseInt($(this).text()) != dataVal ) {
+        $(this).prop('Counter',0).animate({
+            Counter: dataVal
+        }, {
+            duration: durationVal,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+      }
+    }
+  });
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -26,18 +46,19 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 $(window).load(function() {
 
   $(".scroll_block").mCustomScrollbar();
+  getCountNums();
 
 });
 
 $(window).resize(function() {
-
+  bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   // getCardThumbHeight();
   getImgBoxWrappParams();
 
 });
 
 $(document).scroll(function() {
-
+  getCountNums();
 });
 
 $(document).ready(function() {
@@ -71,10 +92,14 @@ $(document).ready(function() {
       setTimeout(function() {
         if(!parent.hasClass("active")) {
           parent.addClass("active");
-          if(parent.hasClass("odd")) {
-            insertAfterElem = parent;
+          if(bodyWidth >= 1240) {
+            if(parent.hasClass("odd")) {
+              insertAfterElem = parent;
+            } else {
+              insertAfterElem = parent.next(".odd");
+            }
           } else {
-            insertAfterElem = parent.next(".odd");
+            insertAfterElem = parent;
           }
           $(testimonialBox).insertAfter(insertAfterElem);
           $(testimonialBox).slideDown(300);
@@ -143,5 +168,32 @@ $(document).ready(function() {
           fade: true
       });
     }
+
+    // --------------
+
+    $(".respmenubtn").click(function(e) {
+      e.preventDefault();
+      if( $("#resp_nav").is(":hidden") ) {
+          $("#resp_nav").fadeIn(300);
+          $(this).addClass("active");
+      } else {
+          $("#resp_nav").fadeOut(300);
+          $(this).removeClass("active");
+      }
+    });
+
+    $(".close_nav").click(function(e) {
+      e.preventDefault();
+      $("#resp_nav").fadeOut(300);
+    });
+    
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 &&
+            $("#resp_nav").is(":visible") &&
+            bodyWidth <= 767) {
+                $("#resp_nav").fadeOut(300);
+                $(".respmenubtn").removeClass("active");
+        }
+    });
 
 });

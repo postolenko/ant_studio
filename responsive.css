@@ -1,30 +1,809 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1601px) {
 
+	.row {
+	    padding: 0 30px;
+	}
 
+	/*-- Section 2 - Main Page --*/
+
+	.card_thumb .phone_bg {
+		transform: scale(.75);
+		-webkit-transform: scale(.75);
+	}
+
+	.card_thumb_header p {
+	    font-size: 30px;
+	    line-height: 34px;
+	}
+
+	.testimonials_card .img_box_wrapp {
+	    max-width: 60% !important;
+	}
+
+	.single_link_2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+
+	.card_footer p {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 1 - Projects Page --*/
+
+	.main_screen_2 {
+	    padding: 260px 0 42px;
+	}
+
+	.numbers {
+	    padding: 90px 0 11px 0;
+	}
+
+	/*-- /Section 1 - Projects Page --*/
+
+	/*-- Section 2 - Projects Page --*/
+
+	.project_thumb .phone_bg {
+		transform: scale(.75);
+		-webkit-transform: scale(.75);
+	}
+
+	.title_3 p {
+	    font-size: 30px;
+	    line-height: 34px;
+	}
+
+	/*-- /Section 2 - Projects Page --*/
+
+	/*-- Section 1 - Testimonials Page --*/
+
+	.testimonials_wrapp .testimonial {
+	    width: calc(50% - 25px);
+	}
+
+	.testimonials_wrapp .testimonial.odd {
+	    margin-left: 50px;
+	}
+
+	.testimonials_wrapp .testimonial > div:nth-child(1) {
+	    width: calc(100% - 260px);
+	}
+
+	.testimonials_wrapp .testimonial > div:nth-child(2) {
+	    width: 260px;
+	}
+
+	.author p {
+	    font-size: 30px;
+	    line-height: 36px;
+	}
+
+	.slide_link_wrapp p {
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+
+	.slide_link {
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+
+	.slide_link_wrapp:hover > div:nth-child(1) {
+	    right: 75px;
+	}
+
+	/*-- /Section 1 - Testimonials Page --*/
+
+	/*-- Footer --*/
+
+	.footer_two_cols {
+	    padding: 30px 0;
+	}
+
+	.black_btn {
+	    padding: 27px 20px 27px 20px;
+	}
+
+	.soc_list {
+	    margin: 20px -9px;
+	}
+
+	.soc_list li {
+	    padding: 5px 9px;
+	}
+
+	.main_screen_desc {
+	    padding-bottom: 87px;
+	}
+
+	/*-- /Footer --*/
 
 }
 
+@media only screen and (max-width: 1240px) {
+
+/*-- Header --*/
+
+	.hidden_1240 {
+		display: none;
+	}
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main Page --*/
+
+.card_thumb_header {
+    padding: 30px 0 0 30px;
+}
+
+.card_thumb .phone_bg {
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+}
+
+.card_thumb_header p {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.single_link_2 {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.card_footer p {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.testimonials_card .card_footer {
+    bottom: 7%;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 1 - Projects Page --*/
+
+.main_screen_2 {
+    padding: 190px 0 42px;
+}
+
+.h1_wrapp h1 {
+    font-size: 131px;
+    line-height: 162px;
+}
+
+/*-- /Section 1 - Projects Page --*/
+
+/*-- Section 2 - Projects Page --*/
+
+.project_thumb .phone_bg {
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+}
+
+.title_3 {
+    padding: 30px 0 0 30px;
+}
+
+.title_3 p {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/*-- /Section 2 - Projects Page --*/
+
+/*-- Section 1 - Testimonials Page --*/
+
+.testimonials_wrapp .testimonial {
+    width: 100%;
+}
+
+.testimonials_wrapp .testimonial.odd {
+    margin-left: 0;
+}
+
+/*-- /Section 1 - Testimonials Page --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.load img {
+	    max-width: 66%;
+	    max-height: 66%;
+	}
+
+/*-- Header --*/
+
+	.main_logo {
+	    max-width: 66%;
+	    max-height: 66%;
+	}
+
+	.main_screen_desc {
+	    padding-bottom: 85px;
+	    left: -27px;
+	}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Projects Page --*/
+
+	.numbers {
+		padding: 76px 0 17px 0;
+	}
+
+	.numbers p {
+	    font-size: 120px;
+	    line-height: 120px;
+	}
+
+/*-- /Section 1 - Projects Page --*/
+
+/*-- Footer --*/
+
+	.footer_two_cols {
+		display: block;
+	}
+
+	.footer_two_cols > .col_1 {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.footer_two_cols > .col_2 {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+/*-- /Footer --*/
+
+}
 
 @media only screen and (max-width: 900px) {
 
+/*-- Header --*/
 
+	.logo_wrapp {
+	    min-width: 300px;
+	}
+
+/*-- /Header --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+	.row {
+	    padding: 0 20px;
+	}
 
+/*-- Header --*/
+
+	.header {
+	    width: 100%;
+	    padding: 21px 0 3px;
+	}
+
+	.header_site .left {
+	    width: calc(100% - 70px);
+	}
+
+	.header_site .right {
+	    width: 70px;
+	    text-align: right;
+	}
+
+	.hidden_767 {
+		display: none;
+	}
+
+	.respmenubtn {
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		top: 3px;
+		font-family: "TT Commons", Arial, Verdana, sans-serif;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #444;
+	}
+
+	.respmenubtn:after {
+		width: 100%;
+		height: 2px;
+		content: "";
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+		background-color: #444;
+		-webkit-transition-property: background;
+	    -webkit-transition-duration: .3s;
+	    -webkit-transition-timing-function: ease;
+
+	    -moz-transition-property: background;
+	    -moz-transition-duration: .3s;
+	    -moz-transition-timing-function: ease;
+
+	    -ms-transition-property: background;
+	    -ms-transition-duration: .3s;
+	    -ms-transition-timing-function: ease;
+
+	    -o-transition-property: background;
+	    -o-transition-duration: .3s;
+	    -o-transition-timing-function: ease;
+
+	    transition-property: background;
+	    transition-duration: .3s;
+	    transition-timing-function: ease;
+	}
+
+	.respmenubtn:hover:after {
+		background-color: transparent;
+	}
+
+	.close_nav {
+		display: inline-block;
+		vertical-align: top;
+		width: 54px;
+		height: 22px;
+		background: transparent;
+		cursor: pointer;
+		border: none;
+		position: relative;
+		top: 3px;
+		font-family: "TT Commons", Arial, Verdana, sans-serif;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #444;
+	}
+
+	.close_nav:after {
+		width: 100%;
+		height: 2px;
+		content: "";
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+		background-color: #444;
+		-webkit-transition-property: background;
+	    -webkit-transition-duration: .3s;
+	    -webkit-transition-timing-function: ease;
+
+	    -moz-transition-property: background;
+	    -moz-transition-duration: .3s;
+	    -moz-transition-timing-function: ease;
+
+	    -ms-transition-property: background;
+	    -ms-transition-duration: .3s;
+	    -ms-transition-timing-function: ease;
+
+	    -o-transition-property: background;
+	    -o-transition-duration: .3s;
+	    -o-transition-timing-function: ease;
+
+	    transition-property: background;
+	    transition-duration: .3s;
+	    transition-timing-function: ease;
+	}
+
+	.close_nav:hover:after {
+		background-color: transparent;
+	}
+
+	.logo_wrapp {
+	    min-width: 100%;
+	}
+
+	.logo p {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+
+	.nav_col {
+		min-width: 100%;
+	}
+
+	#resp_nav {
+		/*display: block;*/
+		display: none;
+		width: 100%;
+		height: 100vh;
+		overflow-y: auto;
+		margin: 0;
+		padding: 90px 10px 50px 10px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 13;
+    	background: #F9F9F9;
+	}
+
+	#resp_nav .close_nav {
+		position: absolute;
+		top: 37px;
+	    right: 21px;
+	}
+
+	.main_nav {
+		display: block;
+	}
+
+	.main_nav li {
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.main_nav li a {
+	    font-size: 21px;
+	    line-height: 21px;
+	}   
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main Page --*/
+
+.testimonials_card .img_box_wrapp {
+    max-width: 80% !important;
+}
+
+.card_thumb .phone_bg {
+    transform: scale(.42);
+    -webkit-transform: scale(.42);
+}
+
+.card_thumb_header {
+	padding: 26px 0 0 20px;
+}
+
+.card_thumb_header p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.single_link_2 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.card_footer {
+    padding: 0 25px;
+}
+
+.card_footer p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 1 - Projects Page --*/
+
+.main_screen_2 {
+    padding: 150px 0 40px;
+}
+
+.h1_wrapp h1 {
+    font-size: 83px;
+    line-height: 120px;
+}
+
+.numbers_wrapp {
+	display: block;
+}
+
+.numbers_wrapp > .col {
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+
+.numbers_wrapp > .col:nth-child(odd),
+.numbers_wrapp > .col:nth-child(even) {
+    padding: 10px 0;
+}
+
+.numbers_wrapp > .col:nth-child(even) {
+	border-bottom: none;
+}
+
+.numbers_wrapp:after {
+	display: none;
+}
+
+.numbers p {
+    font-size: 86px;
+    line-height: 86px;
+}
+
+/*-- /Section 1 - Projects Page --*/
+
+/*-- Section 2 - Projects Page --*/
+
+.project_thumb .phone_bg {
+    transform: scale(.42);
+    -webkit-transform: scale(.42);
+}
+
+.title_3 {
+	padding: 26px 0 0 20px;
+}
+
+.title_3 p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/*-- /Section 2 - Projects Page --*/
+
+/*-- Section 1 - Testimonials Page --*/
+
+.author p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.author:hover p {
+    border-bottom: 2px solid #444444;
+}
+
+/*-- /Section 1 - Testimonials Page --*/
+
+/*-- Section 2 - Testimonials Page --*/
+
+	.testimonials_wrapp .testimonial > div:nth-child(1) {
+	    width: 100%;
+	    padding-bottom: 10px;
+	}
+
+	.testimonials_wrapp .testimonial > div:nth-child(2) {
+	    width: 100%;
+	}
+
+	.testimonial {
+	    display: block;
+	    padding: 10px 0;
+	}
+
+	.author > div:nth-child(1) {
+	    width: 100px;
+	}
+
+	.author > div:nth-child(2) {
+	    width: calc(100% - 100px);
+	}
+
+	.photo_box {
+	    width: 80px;
+	    height: 80px;
+	}
+
+	.slide_link_wrapp {
+	    top: 0;
+	}
+
+	.slide_link_wrapp > div:nth-child(1) {
+	    right: 60px !important;
+	}
+
+	.testimonial_content {
+	    padding: 25px 35px 25px 35px;
+	}
+
+	.testimonial_content:after {
+		display: none;
+	}
+
+	.two_cols_4 {
+		display: block;
+	    margin: 40px auto;
+	}
+
+	.two_cols_4 > div {
+		width: 100%;
+		padding: 0 !important;
+	}
+
+/*-- /Section 2 - Testimonials Page --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+/*-- Section 1 - Projects Page --*/
 
+.main_screen_2 {
+    padding: 191px 0 72px;
+}
+
+.h1_wrapp h1 {
+	font-size: 86px;
+    line-height: 90px;
+}
+
+.main_screen_desc p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.main_screen_2 .main_screen_desc {
+    padding-top: 23px;
+}
+
+/*-- /Section 1 - Projects Page --*/
+
+/*-- Section 2 - Projects Page --*/
+
+.catalog_wrapp {
+	margin: 31px 0 13px 0;
+}
+
+.project_thumb {
+    width: 100%;
+    height: 100vw;
+}
+
+/*-- /Section 2 - Projects Page --*/
+
+/*-- Footer --*/
+
+.footer_two_cols {
+    padding: 2px 0;
+}
+
+.footer_two_cols > .col_1 {
+	display: none;
+}
+
+.two_cols_2 {
+	display: block;
+}
+
+.two_cols_2 > div:nth-child(1) {
+    width: 100%;
+}
+
+.two_cols_2 > div:nth-child(2) {
+    width: 100%;
+}
+
+.inner_box .title {
+    padding-bottom: 12px;
+}
+
+.soc_list {
+    margin: 22px -14px;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+
+.soc_list li {
+    padding: 5px 14px;
+}
+
+.black_btn {
+    padding: 26px 20px 24px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer_bottom {
+    padding: 5px 0 23px 0;
+    text-align: left;
+}
+
+/*-- /Footer --*/
 
 }
 
-
 @media only screen and (max-width: 480px) {
 
-	
+	/*-- Section 2 - Main Page --*/
+
+	.cards_thumbns .card_thumb {
+	    width: 100%;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 2 - Testimonials Page --*/
+
+	.testimonials_wrapp {
+	    margin: 48px 0;
+	}
+
+	.author p {
+	    font-size: 21px;
+	    line-height: 27px;
+	}
+
+	.testimonial_content {
+	    padding: 25px 15px 25px 15px;
+	}
+
+	.two_cols_4 p {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+
+	li {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 2 - Testimonials Page --*/
+
+}
+
+@media only screen and (max-width: 370px) {
+
+	/*-- Header --*/
+
+	.logo p {
+	    font-size: 15px;
+	    line-height: 22px;
+	}
+
+	.main_screen_desc {
+	    padding-left: calc(43% + 18px);
+	}
+
+	.main_screen_desc p {
+	    font-size: 17px;
+	    line-height: 21px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 - Projects Page --*/
+
+	.main_screen_2 {
+	    padding: 160px 0 50px;
+	}
+
+	.h1_wrapp h1 {
+	    font-size: 59px;
+	    line-height: 78px;
+	}
+
+	.main_screen_desc p {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Projects Page --*/
+
+}
+
+@media only screen and (max-width: 360px) {
+
+/*-- Section 1 - Brif Page --*/
+
+	.main_screen_desc {
+	    padding-left: calc(25% + 18px);
+	}
+
+/*-- /Section 1 - Brif Page --*/
+
+/*-- Section 2 - Projects Page --*/
+
+	.project_thumb .phone_bg {
+	    transform: scale(.35);
+	    -webkit-transform: scale(.35);
+	}
+
+/*-- /Section 2 - Projects Page --*/
+
+}
+
+@media only screen and (min-width: 768px) {
+	#resp_nav {
+		display: block !important;
+	}
 }
