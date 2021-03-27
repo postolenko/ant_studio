@@ -1894,7 +1894,8 @@ textarea:focus {
 }
 
 .logo_thumb {
-    height: 960px;
+    /*height: 960px;*/
+    height: 50vw;
     position: relative;
     background: linear-gradient(0deg, #1A1B1B 22.4%, #3A3A3A 100%);
     background: -webkit-linear-gradient(0deg, #1A1B1B 22.4%, #3A3A3A 100%);
@@ -1904,8 +1905,8 @@ textarea:focus {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1968,10 +1969,6 @@ textarea:focus {
     background-color: #fff;
 }
 
-.title_4 {
-
-}
-
 .title_4 p {
     font-weight: 500;
     font-size: 40px;
@@ -1979,20 +1976,16 @@ textarea:focus {
     color: #444;
 }
 
-.main_page_box {
-    height: 1080px;
+.main_page {
+    width: 100%;
     margin: 50px 0 0 0;
-    background-size: cover;
-    background-position: center;
-}
-
-.main_page_box img {
-
+    height: auto;
 }
 
 .goods_thumbs {
     display: flex;
     display: -webkit-flex;
+    margin-top: -4px;
 }
 
 .good_thumb_1_wrapp {
@@ -2025,7 +2018,7 @@ textarea:focus {
 
 .good_thumb_2 {
     width: 50%;
-    height: 960px;
+    height: 50vw;
     position: relative;
     background-color: #ECBC4D;
 }
@@ -2034,8 +2027,8 @@ textarea:focus {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2082,7 +2075,7 @@ textarea:focus {
     width: 670px;
     height: 670px;
     top: 16%;
-    left: 160px;
+    left: 9%;
 }
 
 .colors_cheme span:nth-child(2) {
