@@ -196,4 +196,13 @@ $(document).ready(function() {
         }
     });
 
+    // --------------
+
+    if($(".attach-contact-multiple").length > 0) {
+      document.querySelector('.attach-contact-multiple').addEventListener("change", (e) => Array.from(e.target.files).forEach(file => addFile(file.name)));
+      function addFile(fileName) {
+        $("#label_file").text(fileName);
+      }
+    }
+
 });

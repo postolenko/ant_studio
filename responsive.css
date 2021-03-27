@@ -97,6 +97,59 @@
 
 	/*-- /Section 1 - Testimonials Page --*/
 
+	/*-- Section 2 - Brif Page --*/
+
+	.brif_item h2 {
+	    font-size: 43px;
+	    line-height: 54px;
+	}
+
+	.item_two_cols h3 {
+	    font-size: 21px;
+	    line-height: 26px;
+	}
+
+	.input_wrapp input {
+	    height: 43px;
+	    font-size: 21px;
+	    line-height: 42px;
+	}
+
+	.radio_wrapp label {
+	    font-size: 25px;
+	    line-height: 32px;
+	}
+
+	.radio_wrapp label.hover {
+	    margin-top: 15px;
+	    font-size: 19px;
+	    line-height: 23px;
+	}
+
+	.radio_2_wrapp {
+	    min-height: 120px;
+	}
+
+	.radio_2_wrapp > div:nth-child(1) {
+	    width: calc(100% - 200px);
+	}
+
+	.radio_2_wrapp > div:nth-child(2) {
+	    width: 200px;
+	}
+
+	.radio_2_wrapp > div:nth-child(2) p {
+	    font-size: 21px;
+	    line-height: 25px;
+	}
+
+	.input_file label {
+	    font-size: 22px;
+	    line-height: 21px;
+	}
+
+	/*-- /Section 2 - Brif Page --*/
+
 	/*-- Footer --*/
 
 	.footer_two_cols {
@@ -243,6 +296,15 @@
 	}
 
 /*-- /Section 1 - Projects Page --*/
+
+/*-- Section 2 - Brif Page --*/
+
+.brif_item h2 {
+    font-size: 30px;
+    line-height: 44px;
+}
+
+/*-- /Section 2 - Brif Page --*/
 
 /*-- Footer --*/
 
@@ -612,6 +674,47 @@
 
 /*-- /Section 2 - Testimonials Page --*/
 
+/*-- Section 2 - Brif Page --*/
+
+	.brif_item {
+		display: block;
+	    padding: 20px 0 30px 0;
+	}
+
+	.brif_item .col:nth-child(1) {
+	    width: 100%;
+	    padding-top: 9px;
+	}
+
+	.brif_item .col:nth-child(2) {
+	    width: 100%;
+	}
+
+	.item_two_cols {
+	    margin: 10px 0;
+	}
+
+	.radios .radio_wrapp {
+	    margin: 40px 0;
+	}
+
+	.radio_wrapp label {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+
+	.radio_wrapp label.hover {
+	    margin-top: 5px;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	.inputs_files_wrapp {
+	    padding-top: 10px;
+	}
+
+/*-- /Section 2 - Brif Page --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -650,6 +753,35 @@
 }
 
 /*-- /Section 2 - Projects Page --*/
+
+/*-- Section 2 - Brif Page --*/
+
+.radio_2_wrapp > div:nth-child(1) {
+    width: calc(100% - 120px);
+}
+
+.radio_2_wrapp > div:nth-child(2) {
+    width: 120px;
+    text-align: right;
+}
+
+.radio_wrapp label {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.radio_wrapp label.hover {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.item_two_cols h3 {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/*-- /Section 2 - Brif Page --*/
 
 /*-- Footer --*/
 
@@ -738,6 +870,43 @@
 	}
 
 	/*-- /Section 2 - Testimonials Page --*/
+
+	/*-- Section 2 - Brif Page --*/
+
+	.brif_item h2 {
+	    font-size: 26px;
+	    line-height: 40px;
+	}
+
+	.error_message {
+	    padding: 35px 0;
+	}
+
+	.input_file label {
+	    font-size: 19px;
+	    line-height: 20px;
+	}
+
+	.item_two_cols {
+		display: block;
+	}
+
+	.item_two_cols > div:nth-child(1) {
+	    width: 100%;
+	    padding-top: 35px;
+	}
+
+	.item_two_cols > div:nth-child(2) {
+	    width: 100%;
+	}
+
+	.input_wrapp input {
+	    height: 34px;
+	    font-size: 21px;
+	    line-height: 33px;
+	}
+
+	/*-- /Section 2 - Brif Page --*/
 
 }
 
