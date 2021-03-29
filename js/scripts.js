@@ -1,3 +1,21 @@
+function getAnimation() {
+  $(".animate").each(function() {
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height() ) {
+      $(this).addClass("active");
+      animatedelay = $(this).attr("data-animatedelay");
+      if(animatedelay != false) {
+        $(this).css({
+          "-webkit-transition-delay" : animatedelay + "s",
+          "-moz-transition-delay" : animatedelay + "s",
+          "-ms-transition-delay" : animatedelay + "s",
+          "-o-transition-delay" : animatedelay + "s",
+          "transition-delay" : animatedelay + "s",
+        });
+      }
+    }
+  });
+}
+
 function getCardThumbHeight() {
   $(".card_thumb").each(function() {
     cardHeight = $(this).width();
@@ -44,27 +62,31 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 
 $(window).load(function() {
-
   $(".scroll_block").mCustomScrollbar();
   getCountNums();
-
+  setTimeout(function() {
+    $(".load").fadeOut(500);
+  }, 2000);
 });
 
 $(window).resize(function() {
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   // getCardThumbHeight();
   getImgBoxWrappParams();
+  getAnimation();
 
 });
 
 $(document).scroll(function() {
   getCountNums();
+  getAnimation();
 });
 
 $(document).ready(function() {
 
   // getCardThumbHeight();
   getImgBoxWrappParams();
+  getAnimation();
 
   $(".testimonials_wrapp").each(function() {
     testimonial = $(this).find(".testimonial");
